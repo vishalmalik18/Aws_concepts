@@ -11,3 +11,12 @@
 | **CloudWatch**                      | Monitoring & logging       | 10 custom metrics, 10 alarms                                   | Monitor your free-tier usage                    | Bill generated for extra metrics / alarms         |
 | **EBS (Block storage)**             | Storage for EC2            | 30 GB standard SSD                                             | Used with EC2, don’t exceed                     | Bill generated for extra storage                  |
 | **VPC / Networking**                | Networking                 | 15 GB outbound data transfer                                   | Free limit applies to internet traffic          | Bill generated for extra network usage            |
+
+---
+
+## ✅ Key Points
+
+1. **Stay inside Free Tier limits** → $0 charge.  
+2. **AutoPay OFF** → AWS will **not take money automatically**.
+3. **Stop or delete unused resources** to avoid accidental charges.  
+4. **Monitor Billing → Cost Explorer** regularly.  
