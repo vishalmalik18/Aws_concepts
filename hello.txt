@@ -1,0 +1,6 @@
+| Platform         | AutoPay / Billing | Effect on Free-Tier / Credits Usage                                               | Risk / Notes                                                      |
+| ---------------- | ----------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **AWS**          | OFF               | Free-tier **still works safely**                                                  | Only risk: exceeding free-tier → bill generated manually          |
+|                  | ON                | Free-tier works, paid usage beyond free-tier **billed manually or automatically** | Manual payment if AutoPay OFF; automatic if ON                    |
+| **Google Cloud** | OFF               | Free-tier **stops immediately**, credits cannot be used                           | No charges, but **all services stop** until billing is re-enabled |
+|                  | ON                | Free-tier works, credits used first; paid usage beyond credits **auto-debited**   | Must monitor usage to avoid unexpected charges                    |
